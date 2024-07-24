@@ -37,6 +37,12 @@
         height: 39px;
         flex-shrink: 0;
       }
+      .card {
+        margin: 0 auto;
+      }
+      .form-label {
+        color: #fff;
+      }
     </style>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -142,33 +148,21 @@
               <a href="#" class="btn btn-primary">I want this!</a>
             </div>
           </div>
-          <div class="card" style="width: 18rem">
-            <img src="./img/physics.jpg" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Learn by yourself</h5>
-              <p class="card-text">
-                Watch good quality video courses about physics anywhere and
-                anytime!
-              </p>
-              <a href="#" class="btn btn-primary">I want this!</a>
-            </div>
-          </div>
-          <div class="card" style="width: 18rem">
-            <img src="./img/physics.jpg" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Learn by yourself</h5>
-              <p class="card-text">
-                Watch good quality video courses about physics anywhere and
-                anytime!
-              </p>
-              <a href="#" class="btn btn-primary">I want this!</a>
-            </div>
-          </div>
         </div>
       </section>
+      <div class="toast align-items-center text-bg-primary border-0" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="conainer">
+        <div class="d-flex">
+          <div class="toast-body">
+            Hello, world! This is a toast message.
+          </div>
+          <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+      </div>
+      </div>
       <footer class="footer">
         <div class="container">
-          <label for="customRange1" class="form-label">Example range</label>
+          <label for="customRange1" class="form-label">How do you rate your knowledge of the subject</label>
           <input type="range" class="form-range" id="customRange1" />
           <button class="footer-buton" type="submit">send</button>
         </div>
